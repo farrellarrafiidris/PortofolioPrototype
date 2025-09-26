@@ -3,12 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portofolio || Ael</title>
   <link href="/src/style.css" rel="stylesheet">
 </head>
 <body class="w-[100%] h-auto">
-  <div class="w-[100%] h-[100vh] bg-red-200 p-[100px] overflow-scroll snap-y snap-mandatory">
+  <div class="w-[100%] h-[100vh] bg-red-200  p-5 sm:p-10 md:p-[100px] overflow-scroll snap-y snap-mandatory">
     <div class="w-[100%] h-auto bg-amber-300 rounded-3xl flex flex-col gap-5 overflow-hidden shadow-2xl drop-shadow-2xl">
-      <section class="w-[100%] h-[100vh] bg-blue-300 flex flex-col">
+      <section class="w-[100%] h-auto bg-white flex flex-col py-5 xl:py-0">
         <!-- ===NAVBAR=== -->
         <div class="navbar bg-base-100 shadow-sm">
           <div class="navbar-start">
@@ -48,18 +49,21 @@
             </ul>
           </div>
           <div class="navbar-end">
-            <a class="btn">Button</a>
+            <a class="btn btn-ghost text-xl font-bold">AEL</a>
           </div>
         </div>
         <!-- ===HERO=== -->
-        <div class="flex flex-row overflow-hidden">
+        <div class="flex flex-col-reverse xl:flex-row h-screen">
           <!-- ===TEXT=== -->
-          <div class="bg-indigo-300 w-[50%] h-[100%] flex flex-col items-center justify-center">
-            <h1>Welcome</h1>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus vitae br accusamus sunt?</p>
+          <div class="w-[100%] xl:w-[50%] h-[50%] xl:h-[100%] justify-center flex flex-col gap-3 px-10">
+            <h1 class="font-black text-3xl bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 bg-clip-text text-transparent">Welcome to My Portofolio.</h1>
+            <p class="text-2xl text-justify">Hai, aku Ael 👋 seorang programmer yang fokus di web development, tapi juga suka banget eksplor teknologi baru. Buatku, ngoding itu bukan cuma kerjaan, tapi cara seru buat bikin ide jadi kenyataan. Aku percaya setiap baris kode bisa jadi sesuatu yang impactful</p>
+            <div>
+              <button class="btn btn-soft btn-primary rounded-2xl">get in Touch.</button>
+            </div>
           </div>
           <!-- ===IMG=== -->
-          <div class="bg-lime-300 w-[50%] h-[100vh] flex flex-col items-center justify-center">
+          <div class="w-[100%] xl:w-[50%] h-[50%] xl:h-[100%] flex flex-col items-center justify-center">
             <figure>
               <img src="src/3dModelHero.png"  class="float-slow">
             </figure>
